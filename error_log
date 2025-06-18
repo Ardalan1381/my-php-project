@@ -1,0 +1,203 @@
+[25-Mar-2025 18:40:54 Asia/Tehran] PHP Notice:  Undefined variable: redeem in /home/devhubte/public_html/site/book.php on line 109
+[26-Mar-2025 10:54:16 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value in /home/devhubte/public_html/site/register.php:29
+Stack trace:
+#0 /home/devhubte/public_html/site/register.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/devhubte/public_html/site/register.php on line 29
+[26-Mar-2025 15:27:23 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.reservation_id' in 'SELECT' in /home/devhubte/public_html/site/dashboard.php:20
+Stack trace:
+#0 /home/devhubte/public_html/site/dashboard.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/devhubte/public_html/site/dashboard.php on line 20
+[26-Mar-2025 15:42:53 Asia/Tehran] PHP Notice:  session_start(): A session had already been started - ignoring in /home/devhubte/public_html/site/header.php on line 2
+[26-Mar-2025 15:44:07 Asia/Tehran] PHP Notice:  session_start(): A session had already been started - ignoring in /home/devhubte/public_html/site/header.php on line 2
+[26-Mar-2025 15:45:05 Asia/Tehran] PHP Notice:  session_start(): A session had already been started - ignoring in /home/devhubte/public_html/site/header.php on line 2
+[26-Mar-2025 15:45:33 Asia/Tehran] PHP Notice:  session_start(): A session had already been started - ignoring in /home/devhubte/public_html/site/header.php on line 2
+[26-Mar-2025 16:16:13 Asia/Tehran] PHP Notice:  session_start(): A session had already been started - ignoring in /home/devhubte/public_html/site/header.php on line 2
+[26-Mar-2025 16:17:19 Asia/Tehran] PHP Notice:  session_start(): A session had already been started - ignoring in /home/devhubte/public_html/site/header.php on line 2
+[27-Mar-2025 11:23:50 Asia/Tehran] PHP Notice:  Undefined index: room_id in /home/devhubte/public_html/site/book.php on line 100
+[27-Mar-2025 11:26:51 Asia/Tehran] PHP Notice:  Undefined index: Password in /home/devhubte/public_html/site/login.php on line 19
+[27-Mar-2025 11:28:48 Asia/Tehran] PHP Notice:  Undefined index: room_id in /home/devhubte/public_html/site/book.php on line 100
+[27-Mar-2025 11:29:21 Asia/Tehran] PHP Notice:  Undefined index: room_id in /home/devhubte/public_html/site/book.php on line 100
+[27-Mar-2025 11:38:52 Asia/Tehran] PHP Notice:  Undefined variable: db in /home/devhubte/public_html/site/header.php on line 9
+[27-Mar-2025 11:38:52 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/devhubte/public_html/site/header.php:9
+Stack trace:
+#0 /home/devhubte/public_html/site/about.php(3): include()
+#1 {main}
+  thrown in /home/devhubte/public_html/site/header.php on line 9
+[27-Mar-2025 11:39:05 Asia/Tehran] PHP Notice:  Undefined variable: db in /home/devhubte/public_html/site/header.php on line 9
+[27-Mar-2025 11:39:05 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/devhubte/public_html/site/header.php:9
+Stack trace:
+#0 /home/devhubte/public_html/site/about.php(3): include()
+#1 {main}
+  thrown in /home/devhubte/public_html/site/header.php on line 9
+[27-Mar-2025 13:49:27 Asia/Tehran] PHP Notice:  Undefined variable: db in /home/devhubte/public_html/site/header.php on line 9
+[27-Mar-2025 13:49:27 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/devhubte/public_html/site/header.php:9
+Stack trace:
+#0 /home/devhubte/public_html/site/about.php(3): include()
+#1 {main}
+  thrown in /home/devhubte/public_html/site/header.php on line 9
+[27-Mar-2025 14:36:19 Asia/Tehran] PHP Notice:  Undefined variable: db in /home/devhubte/public_html/site/header.php on line 9
+[27-Mar-2025 14:36:19 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/devhubte/public_html/site/header.php:9
+Stack trace:
+#0 /home/devhubte/public_html/site/about.php(3): include()
+#1 {main}
+  thrown in /home/devhubte/public_html/site/header.php on line 9
+[27-Mar-2025 14:45:37 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fee' in 'SELECT' in /home/devhubte/public_html/site/book_doctor.php:70
+Stack trace:
+#0 /home/devhubte/public_html/site/book_doctor.php(70): PDOStatement->execute()
+#1 {main}
+  thrown in /home/devhubte/public_html/site/book_doctor.php on line 70
+[27-Mar-2025 14:46:06 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'devhubte_astour.Doctor_Reservations' doesn't exist in /home/devhubte/public_html/site/dashboard_reservations.php:31
+Stack trace:
+#0 /home/devhubte/public_html/site/dashboard_reservations.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/devhubte/public_html/site/dashboard_reservations.php on line 31
+[01-Apr-2025 17:23:42 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'card_uid' doesn't have a default value in /home/devhubte/public_html/site/register.php:44
+Stack trace:
+#0 /home/devhubte/public_html/site/register.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/devhubte/public_html/site/register.php on line 44
+[03-Apr-2025 10:14:36 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'penalty_percentage' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$' in /home/devhubte/public_html/site/confirm_cancellation.php on line 81
+[03-Apr-2025 10:14:49 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'penalty_percentage' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$' in /home/devhubte/public_html/site/confirm_cancellation.php on line 81
+[05-Apr-2025 16:06:36 Asia/Tehran] PHP Warning:  Unexpected character in input:  '' (ASCII=4) state=0 in /home/devhubte/public_html/site/reservation_details.php on line 325
+[08-Apr-2025 17:27:26 Asia/Tehran] Login successful, role: doctor
+[08-Apr-2025 17:27:26 Asia/Tehran] Redirecting doctor to /site/doctorsmanager/manage_doctors.php
+[08-Apr-2025 17:28:45 Asia/Tehran] Login successful, role: doctor
+[08-Apr-2025 17:28:45 Asia/Tehran] Redirecting doctor to /site/doctorsmanager/manage_doctors.php
+[08-Apr-2025 17:28:55 Asia/Tehran] Login successful, role: hospital
+[08-Apr-2025 17:28:55 Asia/Tehran] Redirecting hospital to /site/hospitalsmanager/manage_hospitals.php
+[08-Apr-2025 18:17:57 Asia/Tehran] Login successful, role: Moderator
+[08-Apr-2025 18:17:57 Asia/Tehran] Redirecting admin/Moderator to /site/choose_panel.php
+[08-Apr-2025 18:17:57 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:57 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:57 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:58 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:58 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:58 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:58 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:58 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:58 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:59 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:59 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:59 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:17:59 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:00 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:00 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:00 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:00 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:00 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:00 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:02 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:02 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:02 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:02 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:02 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:03 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:03 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:03 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:03 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:03 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:03 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:04 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:04 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:04 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:04 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:04 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:05 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:05 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:05 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:05 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:09 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:09 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:09 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:10 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:10 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:10 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:10 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:10 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:10 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:10 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:11 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:11 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:11 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:11 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:11 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:11 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:12 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:12 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:12 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:12 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:18 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:18 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:18 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:18 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:18 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:19 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:19 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:19 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:19 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:20 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:20 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:20 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:20 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:20 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:20 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:20 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:20 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:21 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:21 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:18:21 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:42 Asia/Tehran] Login successful, role: Moderator
+[08-Apr-2025 18:22:42 Asia/Tehran] Redirecting admin/Moderator to /site/choose_panel.php
+[08-Apr-2025 18:22:43 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:43 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:43 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:43 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:43 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:43 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:44 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:44 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:44 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:44 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:44 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:44 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:44 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:45 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:45 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:45 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:45 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:45 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:45 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:47 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:47 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:47 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:47 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:47 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:48 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:48 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:48 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:48 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:48 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:49 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:49 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:49 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:49 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:49 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:49 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:50 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:50 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:50 Asia/Tehran] User already logged in, role: Moderator
+[08-Apr-2025 18:22:50 Asia/Tehran] User already logged in, role: Moderator
+[09-Apr-2025 11:55:57 Asia/Tehran] Login successful, role: Moderator
+[09-Apr-2025 11:55:57 Asia/Tehran] Redirecting admin/Moderator to /site/choose_panel.php
+[09-Apr-2025 11:55:58 Asia/Tehran] Choose panel - User ID: 2, Role: Moderator
+[09-Apr-2025 11:55:58 Asia/Tehran] Role is admin/Moderator - Showing panel selection
+[09-Apr-2025 11:56:18 Asia/Tehran] Login successful, role: doctor
+[09-Apr-2025 11:56:18 Asia/Tehran] Redirecting doctor to /site/doctorsmanager/manage_doctors.php
+[09-Apr-2025 11:56:45 Asia/Tehran] Login successful, role: hospital
+[09-Apr-2025 11:56:45 Asia/Tehran] Redirecting hospital to /site/hospitalsmanager/manage_hospitals.php
+[09-Apr-2025 12:10:46 Asia/Tehran] Login successful, role: Moderator
+[09-Apr-2025 12:10:46 Asia/Tehran] Redirecting admin/Moderator to /site/choose_panel.php
+[09-Apr-2025 12:10:46 Asia/Tehran] Choose panel - User ID: 2, Role: Moderator
+[09-Apr-2025 12:10:46 Asia/Tehran] Role is admin/Moderator - Showing panel selection
